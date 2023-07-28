@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import 'animate.css';
+
 const Card = () => {
     const [amountTokenA, setAmountTokenA] = useState(1000); // Amount of token A (Bitcoin)
     const [amountTokenB, setAmountTokenB] = useState(7.8545); // Amount of token B (Ethereum)
